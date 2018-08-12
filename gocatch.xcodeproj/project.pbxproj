@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		431CF5EF83F2F05FA711A604 /* Pods_gocatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA746C6354B203325F658EBF /* Pods_gocatch.framework */; };
+		986E15AF211F068C004BA34F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986E15AE211F068C004BA34F /* HomeViewModel.swift */; };
 		9884A786211DB3A500EBBAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884A785211DB3A500EBBAE8 /* AppDelegate.swift */; };
-		9884A788211DB3A500EBBAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884A787211DB3A500EBBAE8 /* ViewController.swift */; };
+		9884A788211DB3A500EBBAE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884A787211DB3A500EBBAE8 /* HomeViewController.swift */; };
 		9884A78B211DB3A500EBBAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9884A789211DB3A500EBBAE8 /* Main.storyboard */; };
 		9884A78D211DB3A700EBBAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9884A78C211DB3A700EBBAE8 /* Assets.xcassets */; };
 		9884A790211DB3A700EBBAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9884A78E211DB3A700EBBAE8 /* LaunchScreen.storyboard */; };
 		9884A79B211DB3A700EBBAE8 /* gocatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884A79A211DB3A700EBBAE8 /* gocatchTests.swift */; };
+		98DDCC36211FCACB0015EC29 /* UserLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DDCC35211FCACB0015EC29 /* UserLocationViewModel.swift */; };
+		98FA7536211EBBC20000828A /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA7535211EBBC20000828A /* UserLocationService.swift */; };
+		98FA753A211EC3F30000828A /* UserLocationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA7539211EC3F30000828A /* UserLocationServiceTests.swift */; };
 		A92295F17D8937F6E9876396 /* Pods_gocatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36804A91085B29529335300A /* Pods_gocatchTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +35,10 @@
 		36804A91085B29529335300A /* Pods_gocatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gocatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D68F2796DF5F41A1ADC363C /* Pods-gocatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gocatch/Pods-gocatch.debug.xcconfig"; sourceTree = "<group>"; };
 		8E72AF496559497ADE53E7B0 /* Pods-gocatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-gocatch/Pods-gocatch.release.xcconfig"; sourceTree = "<group>"; };
+		986E15AE211F068C004BA34F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9884A782211DB3A500EBBAE8 /* gocatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gocatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9884A785211DB3A500EBBAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9884A787211DB3A500EBBAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9884A787211DB3A500EBBAE8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9884A78A211DB3A500EBBAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9884A78C211DB3A700EBBAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9884A78F211DB3A700EBBAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +46,9 @@
 		9884A796211DB3A700EBBAE8 /* gocatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gocatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9884A79A211DB3A700EBBAE8 /* gocatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gocatchTests.swift; sourceTree = "<group>"; };
 		9884A79C211DB3A700EBBAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DDCC35211FCACB0015EC29 /* UserLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationViewModel.swift; sourceTree = "<group>"; };
+		98FA7535211EBBC20000828A /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
+		98FA7539211EC3F30000828A /* UserLocationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationServiceTests.swift; sourceTree = "<group>"; };
 		BA746C6354B203325F658EBF /* Pods_gocatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gocatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB782BEF8C811CFB18577337 /* Pods-gocatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocatchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gocatchTests/Pods-gocatchTests.release.xcconfig"; sourceTree = "<group>"; };
 		E79DBBF659F6776D52BC3D94 /* Pods-gocatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gocatchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gocatchTests/Pods-gocatchTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,12 +108,15 @@
 		9884A784211DB3A500EBBAE8 /* gocatch */ = {
 			isa = PBXGroup;
 			children = (
+				98FA753C211ED3E60000828A /* Models */,
+				98FA753B211ED3DB0000828A /* ViewModels */,
+				98FA753D211ED3EE0000828A /* Views */,
 				9884A785211DB3A500EBBAE8 /* AppDelegate.swift */,
-				9884A787211DB3A500EBBAE8 /* ViewController.swift */,
 				9884A789211DB3A500EBBAE8 /* Main.storyboard */,
 				9884A78C211DB3A700EBBAE8 /* Assets.xcassets */,
 				9884A78E211DB3A700EBBAE8 /* LaunchScreen.storyboard */,
 				9884A791211DB3A700EBBAE8 /* Info.plist */,
+				98FA7537211EC3490000828A /* Services */,
 			);
 			path = gocatch;
 			sourceTree = "<group>";
@@ -115,8 +126,57 @@
 			children = (
 				9884A79A211DB3A700EBBAE8 /* gocatchTests.swift */,
 				9884A79C211DB3A700EBBAE8 /* Info.plist */,
+				98FA7539211EC3F30000828A /* UserLocationServiceTests.swift */,
 			);
 			path = gocatchTests;
+			sourceTree = "<group>";
+		};
+		98FA7537211EC3490000828A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98FA7538211EC3550000828A /* Location */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98FA7538211EC3550000828A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				98FA7535211EBBC20000828A /* UserLocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		98FA753B211ED3DB0000828A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				986E15AE211F068C004BA34F /* HomeViewModel.swift */,
+				98DDCC35211FCACB0015EC29 /* UserLocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98FA753C211ED3E60000828A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98FA753D211ED3EE0000828A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98FA753E211ED3F90000828A /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98FA753E211ED3F90000828A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9884A787211DB3A500EBBAE8 /* HomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B407E04E8634FF74339D06E6 /* Frameworks */ = {
@@ -158,6 +218,7 @@
 				9884A792211DB3A700EBBAE8 /* Sources */,
 				9884A793211DB3A700EBBAE8 /* Frameworks */,
 				9884A794211DB3A700EBBAE8 /* Resources */,
+				F67BA50D23D1444ED354EA90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +325,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F67BA50D23D1444ED354EA90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-gocatchTests/Pods-gocatchTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gocatchTests/Pods-gocatchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FABAF1C4A6BEA938D8AD74CC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,10 +355,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-gocatch/Pods-gocatch-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,8 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9884A788211DB3A500EBBAE8 /* ViewController.swift in Sources */,
+				98FA7536211EBBC20000828A /* UserLocationService.swift in Sources */,
+				9884A788211DB3A500EBBAE8 /* HomeViewController.swift in Sources */,
 				9884A786211DB3A500EBBAE8 /* AppDelegate.swift in Sources */,
+				98DDCC36211FCACB0015EC29 /* UserLocationViewModel.swift in Sources */,
+				986E15AF211F068C004BA34F /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9884A79B211DB3A700EBBAE8 /* gocatchTests.swift in Sources */,
+				98FA753A211EC3F30000828A /* UserLocationServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
