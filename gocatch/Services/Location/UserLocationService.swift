@@ -11,7 +11,7 @@ import CoreLocation
 protocol LocationManager {
     var delegate: CLLocationManagerDelegate? { get set }
     func requestWhenInUseAuthorization()
-    func requestLocation()
+    func startUpdatingLocation()
 }
 
 extension CLLocationManager: LocationManager {}
@@ -28,6 +28,6 @@ class UserLocationService: NSObject {
 
     func getUserLocation() {
         locationManager.requestWhenInUseAuthorization()
-        locationManager.requestLocation()
+        locationManager.startUpdatingLocation()
     }
 }
